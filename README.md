@@ -1,5 +1,6 @@
 # Communicate-Data-Findings
 
+This project will be accomplished in July 2020
 
 This project has two parts that demonstrate the importance and value of data visualization techniques in the data analysis process. In the first part, you will use Python visualization libraries to systematically explore a selected dataset, starting from plots of single variables and building up to plots of multiple variables.
 
