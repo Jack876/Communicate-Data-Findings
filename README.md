@@ -43,3 +43,7 @@ PISA Data with PISA Data Dictionary to Explain Dataset's Variables
 Or select your own dataset! See guidelines in the Dataset Options download in the Resources tab on whether or not a dataset will be appropriate for use in this project Remember that finding and cleaning your own data set could take significant time and effort!
 
 A Google Doc download option with identical info is available below as well, if you prefer it. This is not accessible on all networks. Google Doc Download
+
+
+Step 1.2: Explore Your Data
+It’s time to get to the interesting bits. Explore your data and document your findings in a report. The report should briefly introduce the dataset, then systematically walk through the points of exploration that you conducted. You should have headers and text that organize your thoughts and findings. Visualizations in this part of the project need not be completely polished: this is just your own exploration at this point. However, you should still make sure that you adhere to principles of using appropriate plot types and encodings so that accurate conclusions can be drawn, and that you have enough comments and labeling so that when you return to your work, you can quickly grasp your analysis steps.
