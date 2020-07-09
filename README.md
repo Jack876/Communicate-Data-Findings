@@ -40,9 +40,7 @@ Loan Data from Prosper with Prosper Data Dictionary to Explain Dataset's Variabl
 
 PISA Data with PISA Data Dictionary to Explain Dataset's Variables
 
-Or select your own dataset! See guidelines in the Dataset Options download in the Resources tab on whether or not a dataset will be appropriate for use in this project Remember that finding and cleaning your own data set could take significant time and effort!
 
-A Google Doc download option with identical info is available below as well, if you prefer it. This is not accessible on all networks. Google Doc Download
 
 
 
