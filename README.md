@@ -34,11 +34,7 @@ Dataset Options
 
 Ford GoBike System Data
 
-Flights
 
-Loan Data from Prosper with Prosper Data Dictionary to Explain Dataset's Variables
-
-PISA Data with PISA Data Dictionary to Explain Dataset's Variables
 
 
 
