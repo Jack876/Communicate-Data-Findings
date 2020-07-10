@@ -26,13 +26,7 @@ First, you will choose a dataset from the Dataset Options.
 
 Download the Dataset Options file for full details & descriptions from the Resources Tab.
 
-Click on Resources in the leftmost panel of your classroom
-Click the File Name to start download
-Quick List Below:
 
-Dataset Options
-
-Ford GoBike System Data
 
 
 
