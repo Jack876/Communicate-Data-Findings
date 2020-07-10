@@ -27,7 +27,7 @@ First, you will choose a dataset from the Dataset Options.
 Download the Dataset Options file for full details & descriptions from the Resources Tab.
 
 
-
+Though not required, it is highly recommended that you try to get feedback from at least one person before you submit your project. By sharing your work with others, you can get input from a different perspective that catches things that you may have originally missed. 
 
 
 
