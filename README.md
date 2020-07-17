@@ -1,36 +1,50 @@
 # Communicate-Data-Findings
 
-This project will be accomplished in July 2020
 
-This project has two parts that demonstrate the importance and value of data visualization techniques in the data analysis process. In the first part, you will use Python visualization libraries to systematically explore a selected dataset, starting from plots of single variables and building up to plots of multiple variables.
-
-In the second part, you will produce a short presentation that illustrates interesting properties, trends, and relationships that you discovered in your selected dataset. The primary method of conveying your findings will be through transforming your exploratory visualizations from the first part into polished, explanatory visualizations.
-
-
-What do I need to install?
-This project uses Python 3 and is designed to be completed through the Jupyter Notebooks IDE. It is highly recommended that you use the Anaconda distribution to install Python, since the distribution includes all necessary Python libraries as well as Jupyter Notebooks. The following libraries are expected to be used in this project:
-
-NumPy
-pandas
-Matplotlib
-Seaborn
-
-Why this project?
-Data visualization is an important skill that is used in many parts of the data analysis process. Exploratory data visualization generally occurs during and after the data wrangling process, and is the main method that you will use to understand the patterns and relationships present in your data. This understanding will help you approach any statistical analyses and will help you build conclusions and findings. This process might also illuminate additional data cleaning tasks to be performed. Explanatory data visualization techniques are used after generating your findings, and are used to help communicate your results to others. Understanding design considerations will make sure that your message is clear and effective. In addition to being a good producer of visualizations, going through this project will also help you be a good consumer of visualizations that are presented to you by others.
-
-
-In the second part, you will take your main findings from your exploration and convey them to others through an explanatory analysis. To this end, you will create a slide deck that leverages polished, explanatory visualizations to communicate your results. This part of the project should make heavy use of the first part of the project. Select one or two major paths in your exploration, choose relevant visualizations along that path, and then polish them to construct a story for your readers to understand what you found.
-
-Step 1.1: Choose your Dataset
-First, you will choose a dataset from the Dataset Options.
-
-Download the Dataset Options file for full details & descriptions from the Resources Tab.
-
-
-Though not required, it is highly recommended that you try to get feedback from at least one person before you submit your project. By sharing your work with others, you can get input from a different perspective that catches things that you may have originally missed. 
-
-Share your slide deck with someone in person and have them provide live feedback on what they get from your slide deck. Alternatively, you can also share your work with your fellow students. Post a message in a student community channel for this project with a link to your project and ask for feedback. Be sure to keep an eye out for others who are also seeking feedback and return the favor!
+# (Dataset Exploration Title)
+## by (your name here)
 
 
 
+## Dataset
+Ford GoBike System Dataset is a dataset that contains trip data from Lyft's bike service for public use. This dataset includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area. Variables including, trip duration, start time and end time with date, start station and end station names, start and end coordinates, customer type, etc.
+
+Firstly, I use Python visualization libraries to systematically explore this dataset, starting from plots of single variables and building up to plots of multiple variables. Then I produce a short presentation that illustrates interesting properties, trends, and relationships that I discovered in the dataset. 
+
+## Summary of Findings
+
+Yearly Change: The riding count increased dramatically from year 2017 to 2018, then gain moderately in 2019. This is a good sign for the company.    
+Monthly Change: From the month perspective, September and October are the two busiest month of the years. Then comes July and August. Obviously, summer and autumn are the best seasons to enjoy outdoor riding.
+Daily change: The riding happened evenly during every month if I dropped out the outlier of the 31rd. In other words, during the 30 days of every month, the riding frequency did not change much. Furthermore, I think this is not the real life difference. The outlier happened just because only about 6 months has the 31rd day, other months has not the 31rd day. The calendar reason causes the strange value of 31rd day , which does not necessarily mean the riding count is low on this day.
+Hourly Change: There are two peaks in everyday operation. One is 8-9am and the other is 17-18pm. This is in line with the common working hours. It is natural to have the lowest count from 0 to 5 in late night.
+
+Riding Distance. When considering bike riding distance, we can see there is a maximum value of 12,803,570. While most values are under 4000. By zoom in the graph, I find 75% values are 2167. Interestingly, the minimum value is 0, which means some users rent bikes but did not used them at all.
+Riding Time. When considering duration minutes, we can see there is a maximum value (1520 minutes =25.33 hours). While most values are under 2000 minutes. By zoom in the graph, I find 75% values are under 14.76 minutes. Specifically, most riding time is 5-10 minutes. I also notice there are some strange outliers, like the max value is 1520 minutes (25.33 hours). This is a very interesting number since nobody would rent a bike and keep on riding for more than 24 hours. I guess a possible reason is some customers did not remember to return their bikes until the next day.
+
+User type and riding distance. There are not much difference between customer group and subscriber group when considering their riding distance. They have similar means and percentiles. The only difference is customer group has a few bigger outliers than the subscriber group has. This might indicate whether subscribing or not does not impact peoples' riding behavior. The possible reason is renting cost is not a big deal for most customers.
+
+User type and riding time. The median riding time of customer group is slightly higher than that of the subscriber group, which is a bit contradict to our institution. The maximum values for both groups are almost the same. This might indicate subscribing service does not necessarily increase the riding time. The possible reason is people use the service just for actual needs. Subscribers would not ride more frequently than other customers.
+Further investigation of the two by multivariate exploration shows customer group has much higher average riding time comparing to subscriber group. Another point is customer group also has much higher variation from month to month, while the subscriber group line tend to be quite flat. It may suggest that the company should pay more, at least equal, attention and resource to the consumer service of non-subscribers.
+
+Riding time and distance. When riding time (duration_min) increases, most of distance values would not have linear increase, but keep on the same level except for some outliers. Most riding distance happen under 15000. This is interesting because I assumed the two factors may had positively linear relationship. It may show during the time from begin to bike sharing end the bikes are not always in motion status. 
+
+Distance vs Month. From January to April, the riding distance increases steadily. After April, it dropped temporarily for only one month then moved up gradually to the peak on November. Then it decreased in the last month during the period of three years. 
+
+Yes, I plan on bringing them into my explanatory presentation.
+
+
+> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
+
+
+## Key Insights for Presentation
+
+1.	When is the important time for the bike-sharing company?
+Yearly Change: The riding count increased dramatically from year 2017 to 2018, then gain moderately in 2019. This is a good sign of development for the company.    
+Monthly Change: From the month perspective, September and October are the two busiest month of the years. Then comes July and August. Obviously, summer and autumn are the best seasons to enjoy outdoor riding.
+Daily change: The riding happened evenly during every month if I dropped out the outlier of the 31rd. In other words, during the 30 days of every month, the riding frequency did not change much. Furthermore, I think this is not the real life difference. The outlier happened just because only about 6 months has the 31rd day, other months has not the 31rd day. The calendar reason causes the strange value of 31rd day , which does not necessarily mean the riding count is low on this day.
+Hourly Change: There are two peaks in everyday operation. One is 8-9am and the other is 17-18pm. This is in line with the common working hours. It is natural to have the lowest count from 0 to 5 in late night.
+
+2.	Does user type impact riding time?
+User type and riding time. The median riding time of customer group is slightly higher than that of the subscriber group, which is a bit contradict to our institution. The maximum values for both groups are almost the same. This might indicate subscribing service does not necessarily increase the riding time. The possible reason is people use the service just for actual needs. Subscribers would not ride more frequently than other customers.
+Further investigation of the two by multivariate exploration shows customer group has much higher average riding time comparing to subscriber group. Another point is customer group also has much higher variation from month to month, while the subscriber group line tend to be quite flat. It may suggest that the company should pay more, at least equal, attention and resource to the consumer service of non-subscribers.
 
