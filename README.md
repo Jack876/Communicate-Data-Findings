@@ -1,5 +1,7 @@
 # Communicate-Data-Findings
 
+# Ford GoBike System Dateset Exploration
+## by YIJJIE ZHANG
 
 # (Dataset Exploration Title)
 ## by (your name here)
@@ -33,9 +35,6 @@ Distance vs Month. From January to April, the riding distance increases steadily
 Yes, I plan on bringing them into my explanatory presentation.
 
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
-
-
 ## Key Insights for Presentation
 
 1.	When is the important time for the bike-sharing company?
@@ -48,3 +47,6 @@ Hourly Change: There are two peaks in everyday operation. One is 8-9am and the o
 User type and riding time. The median riding time of customer group is slightly higher than that of the subscriber group, which is a bit contradict to our institution. The maximum values for both groups are almost the same. This might indicate subscribing service does not necessarily increase the riding time. The possible reason is people use the service just for actual needs. Subscribers would not ride more frequently than other customers.
 Further investigation of the two by multivariate exploration shows customer group has much higher average riding time comparing to subscriber group. Another point is customer group also has much higher variation from month to month, while the subscriber group line tend to be quite flat. It may suggest that the company should pay more, at least equal, attention and resource to the consumer service of non-subscribers.
 
+## Feedback from others
+
+I showed the dataset analyses to one of my friend who is an accountant. At the beginning, he is surprised that I could got so much interesting information from the original bike sharing data. I explained that this is the power and attraction of data analysis, as well as how the data analysis help modern business develop. Then he is confused by some statistical detail I used in the graph. For example, he already mixed the percentiles meaning of box plots which he studied in the college many years ago. Besides this, he might need introduction of violin graph. A good suggestion from him is I should keep good balance between meaningful explaining words and advanced statistical tools.
