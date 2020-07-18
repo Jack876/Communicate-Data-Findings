@@ -3,9 +3,6 @@
 # Ford GoBike System Dateset Exploration
 ## by YIJJIE ZHANG
 
-# (Dataset Exploration Title)
-## by (your name here)
-
 
 
 ## Dataset
